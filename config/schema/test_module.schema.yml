@@ -1,0 +1,16 @@
+test_module.settings:
+  type: config_object
+  label: 'test module '
+  mapping:
+    title:
+      type: string
+      label: 'title'
+    text:
+      type: text
+      label: 'Text'
+    text_format:
+      type: string
+      label: 'Text Format'
+    display:
+      type: boolean
+      label: 'Display'
