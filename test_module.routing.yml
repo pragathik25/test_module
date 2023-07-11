@@ -1,0 +1,9 @@
+test_module.adminconfig:
+  path: '/admin-config'
+  defaults:
+    _form: 'Drupal\test_module\Form\AdminConfig'
+    _title: 'admin config form'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true
