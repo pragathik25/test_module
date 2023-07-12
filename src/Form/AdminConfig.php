@@ -6,7 +6,7 @@ use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Class AdminConfig.
+ * Implementing config form.
  */
 class AdminConfig extends ConfigFormBase {
 
